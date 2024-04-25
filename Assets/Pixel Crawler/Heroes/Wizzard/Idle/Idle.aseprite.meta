@@ -2,17 +2,12 @@ fileFormatVersion: 2
 guid: 07fc555d803363446b9c4d97fb4de151
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: Idle_Clip
-    second: {fileID: 7400000, guid: 16882e74b6c17584d867c71ca89128d9, type: 2}
+  externalObjects: {}
   serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  script: {instanceID: 0}
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -40,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 32
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -80,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -92,7 +87,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
     generateModelPrefab: 1
@@ -100,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638490456462486281
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -126,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Idle_Frame_0
     originalName: 
-    pivot: {x: 0.48, y: 0.5}
+    pivot: {x: 0.48, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -135,7 +130,7 @@ ScriptedImporter:
       y: 4
       width: 25
       height: 32
-    spriteID: 1f55eb8059254d24ca081a656c205f10
+    spriteID: b4c54dac4ad91144d8db548f7b4515c5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +141,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Idle_Frame_1
     originalName: 
-    pivot: {x: 0.48, y: 0.53333336}
+    pivot: {x: 0.48, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -155,7 +150,7 @@ ScriptedImporter:
       y: 83
       width: 25
       height: 30
-    spriteID: e0118a97641f1c243be577d908a12e2e
+    spriteID: 794f2c2d382ba7b458d04ce63dfff8d0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -166,7 +161,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 83}
   - name: Idle_Frame_2
     originalName: 
-    pivot: {x: 0.48, y: 0.53333336}
+    pivot: {x: 0.48, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -175,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 25
       height: 30
-    spriteID: d80f171d33425134dae8d5d04cecb53a
+    spriteID: 70d308a483d60444d92101e96d9ad615
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -186,7 +181,7 @@ ScriptedImporter:
     uvTransform: {x: 37, y: 4}
   - name: Idle_Frame_3
     originalName: 
-    pivot: {x: 0.48, y: 0.516129}
+    pivot: {x: 0.48, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -195,7 +190,7 @@ ScriptedImporter:
       y: 44
       width: 25
       height: 31
-    spriteID: bcdc4013118eef744b3b17973211641f
+    spriteID: 4d605f1884eed1441b4ef443573b8403
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,7 +215,7 @@ ScriptedImporter:
         y: 0
         width: 25
         height: 32
-      spriteId: 1f55eb8059254d24ca081a656c205f10
+      spriteId: b4c54dac4ad91144d8db548f7b4515c5
     - name: Idle_Frame_1
       frameIndex: 1
       cellRect:
@@ -228,7 +223,7 @@ ScriptedImporter:
         y: 0
         width: 25
         height: 30
-      spriteId: e0118a97641f1c243be577d908a12e2e
+      spriteId: 794f2c2d382ba7b458d04ce63dfff8d0
     - name: Idle_Frame_2
       frameIndex: 2
       cellRect:
@@ -236,7 +231,7 @@ ScriptedImporter:
         y: 0
         width: 25
         height: 30
-      spriteId: d80f171d33425134dae8d5d04cecb53a
+      spriteId: 70d308a483d60444d92101e96d9ad615
     - name: Idle_Frame_3
       frameIndex: 3
       cellRect:
@@ -244,70 +239,10 @@ ScriptedImporter:
         y: 0
         width: 25
         height: 31
-      spriteId: bcdc4013118eef744b3b17973211641f
+      spriteId: 4d605f1884eed1441b4ef443573b8403
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Android
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
